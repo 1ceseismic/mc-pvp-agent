@@ -3,3 +3,5 @@
 /server/libraries
 /server/logs
 /server/*
+/minerl
+/wsl_venv
