@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Mission xmlns="http://ProjectMalmo.microsoft.com">
+  <About><Summary>Test PvP</Summary></About>
+  <ServerSection>
+    <ServerHandlers>
+      <FlatWorldGenerator generatorString="3;7,220*1,5;3;"/>
+      <ServerQuitWhenAnyAgentFinishes/>
+    </ServerHandlers>
+  </ServerSection>
+
+  <AgentSection mode="Survival">
+    <Name>agent_1</Name>
+    <AgentStart><Placement x="-1" y="5" z="0"/></AgentStart>
+    <AgentHandlers>
+      <VideoProducer want_depth="false"><Width>84</Width><Height>84</Height></VideoProducer>
+      <DiscreteMovementCommands/>
+      <RewardForMissionEnd>
+        <Reward reward="1.0" description="deal damage"/>
+        <Reward reward="-1.0" description="receive damage" />
+      </RewardForMissionEnd>
+    </AgentHandlers>
+  </AgentSection>
+
+</Mission>
