@@ -1,3 +1,5 @@
-
 /venv
+
+/server/libraries
+/server/logs
 /server/*
