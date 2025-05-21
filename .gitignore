@@ -5,3 +5,5 @@
 /server/*
 /minerl
 /wsl_venv
+/dreamer
+/logs
